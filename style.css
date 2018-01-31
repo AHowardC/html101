@@ -1,3 +1,30 @@
-p{
-	color: blue;
+header{
+	background-color: #e03a88;
+}
+nav{
+	border: solid darkblue 8px;
+}
+nav ul{
+	border: solid red 8px;
+}
+nav ul li{
+	background-color: aqua;
+}
+aside{
+	background-color: slategrey;
+}
+main{
+	background-color: blue;
+}
+main div{
+	border: dotted indianred;
+}
+footer{
+	background-color: aqua;
+}
+footer ul{
+	border: ridge magenta;
+}
+footer ul li{
+	border: ridge rosybrown
 }
