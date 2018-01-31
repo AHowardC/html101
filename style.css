@@ -1,30 +1,44 @@
 header{
-	background-color: #e03a88;
+	background-color: aqua;
 }
 nav{
-	border: solid darkblue 8px;
+	border: solid magenta 8px;
 }
 nav ul{
-	border: solid red 8px;
+	border: solid magenta 8px;
 }
-nav ul li{
+nav ul li:nth-child(odd){
 	background-color: aqua;
+}
+nav ul li:nth-child(even){
+	background-color: magenta;
 }
 aside{
-	background-color: slategrey;
+	background-color: aqua;
+}
+aside p{
+	background: aquamarine;
 }
 main{
-	background-color: blue;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	background-color: aqua;
 }
-main div{
-	border: dotted indianred;
+main div:nth-child(odd){
+	background-color: magenta;
+}
+main div:nth-child(even){
+	background-color: aqua;
 }
 footer{
-	background-color: aqua;
+	background-color: aquamarine;
 }
 footer ul{
 	border: ridge magenta;
 }
-footer ul li{
-	border: ridge rosybrown
+footer ul li:nth-child(odd){
+	background: aqua
+}
+footer ul li:nth-child(even){
+	background: magenta;
 }
